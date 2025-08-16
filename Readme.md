@@ -3,7 +3,6 @@
  ## Quickstart
  ```bash
  python -m venv .venv
- 19
 source .venv/bin/activate  # Windows: .\.venv\Scripts\Activate.ps1
  pip install -r requirements.txt
  python -m src.ml.train --model-path models/model_v1.joblib
