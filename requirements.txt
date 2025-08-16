@@ -1,0 +1,36 @@
+# Core
+fastapi==0.112.2
+uvicorn==0.30.6
+pydantic==2.9.2
+pydantic-settings==2.6.0
+python-dotenv==1.0.1
+
+
+# ML
+scikit-learn==1.5.2
+pandas==2.2.2
+numpy==2.1.1
+joblib==1.4.2
+
+
+# Frontend
+streamlit==1.38.0
+requests==2.32.3
+
+
+# Quality
+pytest==8.3.2
+httpx==0.27.2
+ruff==0.6.9
+black==24.8.0
+pre-commit==3.8.0
+
+
+# Observability
+structlog==24.4.0
+prometheus-fastapi-instrumentator==7.0.0
+
+
+# Caching / Rate limiting (optional)
+redis==5.0.8
+fastapi-cache2==0.2.2
