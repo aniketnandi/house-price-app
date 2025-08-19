@@ -14,3 +14,4 @@ Frontend is at:  http://localhost:8501
 ***Screenshots***
 
 <img width="1910" height="884" alt="image" src="https://github.com/user-attachments/assets/989710e6-d94f-48eb-a61b-0828f7e6f6c9" />
+<img width="1913" height="885" alt="image" src="https://github.com/user-attachments/assets/4505ebc6-ceba-4c3c-b440-a08b16d71a2f" />
