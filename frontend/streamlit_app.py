@@ -13,9 +13,10 @@ st.title("🏠 House Price Predictor")
 
 with st.form("input_form"):
     st.write("Enter features (California Housing schema)")
-    MedInc = st.number_input(
-        "Median Income (10k USD)", min_value=0.0, value=3.5, step=0.1
+    AnnualIncome = st.number_input(
+        "Median Annual Income", min_value=0.0, value=35000.0, step=1000.0
     )
+    MedInc = AnnualIncome / 10000.0  # convert to dataset scale
     HouseAge = st.number_input("House Age", min_value=0.0, value=20.0, step=1.0)
     AveRooms = st.number_input("Average Rooms", min_value=0.0, value=5.0, step=0.1)
     AveBedrms = st.number_input("Average Bedrooms", min_value=0.0, value=1.0, step=0.1)
@@ -40,7 +41,8 @@ if submitted:
         resp = requests.post(f"{API_URL}/predict", json=payload, timeout=10)
         resp.raise_for_status()
         pred = resp.json()["prediction"]
-        st.success(f"Predicted price (in $100,000s): {pred:.3f}")
+        price_usd = pred * 100000
+        st.success(f"Predicted price: {price_usd:.0f} $")
     except Exception as e:
         st.error(f"Error: {e}")
 
