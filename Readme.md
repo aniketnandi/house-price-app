@@ -13,5 +13,12 @@ Backend is at:  http://localhost:8000/docs
 Frontend is at:  http://localhost:8501
 ***Screenshots***
 
-<img width="1910" height="884" alt="image" src="https://github.com/user-attachments/assets/989710e6-d94f-48eb-a61b-0828f7e6f6c9" />
-<img width="1913" height="885" alt="image" src="https://github.com/user-attachments/assets/4505ebc6-ceba-4c3c-b440-a08b16d71a2f" />
+Example 1:
+
+<img width="1906" height="883" alt="image" src="https://github.com/user-attachments/assets/fae30276-a31e-4044-8134-cddc31bfda66" />
+<img width="1908" height="881" alt="image" src="https://github.com/user-attachments/assets/9fbf0ac5-4d0c-4822-bcd2-07b2212b9d91" />
+
+Example 2:
+
+<img width="1913" height="882" alt="image" src="https://github.com/user-attachments/assets/aa2d6a4b-240d-4dce-bc4a-eae1c2b8d2c5" />
+<img width="1909" height="884" alt="image" src="https://github.com/user-attachments/assets/84cd35b9-c4bc-41e0-bfaf-3bae3cbebf10" />
