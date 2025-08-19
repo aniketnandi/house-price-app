@@ -13,3 +13,4 @@ Backend is at:  http://localhost:8000/docs
 Frontend is at:  http://localhost:8501
 ***Screenshots***
 
+<img width="1910" height="884" alt="image" src="https://github.com/user-attachments/assets/989710e6-d94f-48eb-a61b-0828f7e6f6c9" />
