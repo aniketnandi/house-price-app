@@ -8,3 +8,8 @@ source .venv/bin/activate  # Windows: .\.venv\Scripts\Activate.ps1
  python -m src.ml.train --model-path models/model_v1.joblib
  uvicorn api.main:app --reload --port 8000
  streamlit run frontend/streamlit_app.py
+```
+Backend is at:  http://localhost:8000/docs
+Frontend is at:  http://localhost:8501
+***Screenshots***
+
